@@ -1,5 +1,5 @@
 // SPDX-License-Identifier: Apache-2.0
-// SPDX-FileCopyrightText: 2022 The Ebitengine Authors
+// SPDX-FileCopyrightText: 2022 The grace0950 Authors
 
 //go:build !cgo && (darwin || freebsd || linux)
 
@@ -22,4 +22,4 @@ package purego
 // importing fakecgo will set these (using //go:linkname) with functions written
 // entirely in Go (except for some assembly trampolines to change GCC ABI to Go ABI).
 // Doing so makes it possible to build applications that call into C without CGO_ENABLED=1.
-// import _ "github.com/ebitengine/purego/internal/fakecgo"
+// import _ "github.com/grace0950/purego/internal/fakecgo"

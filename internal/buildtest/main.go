@@ -1,12 +1,12 @@
 // SPDX-License-Identifier: Apache-2.0
-// SPDX-FileCopyrightText: 2024 The Ebitengine Authors
+// SPDX-FileCopyrightText: 2024 The grace0950 Authors
 
 //go:build !windows
 
 package main
 
 import (
-	_ "github.com/ebitengine/purego"
+	_ "github.com/grace0950/purego"
 )
 
 import "C"

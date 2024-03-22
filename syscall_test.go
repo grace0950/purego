@@ -1,5 +1,5 @@
 // SPDX-License-Identifier: Apache-2.0
-// SPDX-FileCopyrightText: 2023 The Ebitengine Authors
+// SPDX-FileCopyrightText: 2023 The grace0950 Authors
 
 package purego_test
 
@@ -7,7 +7,7 @@ import (
 	"os"
 	"testing"
 
-	_ "github.com/ebitengine/purego"
+	_ "github.com/grace0950/purego"
 )
 
 func TestOS(t *testing.T) {

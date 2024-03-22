@@ -1,5 +1,5 @@
 // SPDX-License-Identifier: Apache-2.0
-// SPDX-FileCopyrightText: 2024 The Ebitengine Authors
+// SPDX-FileCopyrightText: 2024 The grace0950 Authors
 
 //go:build darwin && (arm64 || amd64)
 
@@ -12,7 +12,7 @@ import (
 	"testing"
 	"unsafe"
 
-	"github.com/ebitengine/purego"
+	"github.com/grace0950/purego"
 )
 
 func TestRegisterFunc_structArgs(t *testing.T) {

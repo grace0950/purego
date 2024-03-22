@@ -1,5 +1,5 @@
 // SPDX-License-Identifier: Apache-2.0
-// SPDX-FileCopyrightText: 2024 The Ebitengine Authors
+// SPDX-FileCopyrightText: 2024 The grace0950 Authors
 
 #include <stdint.h>
 

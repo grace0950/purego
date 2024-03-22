@@ -1,5 +1,5 @@
 # purego
-[![Go Reference](https://pkg.go.dev/badge/github.com/ebitengine/purego?GOOS=darwin.svg)](https://pkg.go.dev/github.com/ebitengine/purego?GOOS=darwin)
+[![Go Reference](https://pkg.go.dev/badge/github.com/grace0950/purego?GOOS=darwin.svg)](https://pkg.go.dev/github.com/grace0950/purego?GOOS=darwin)
 
 A library for calling C functions from Go without Cgo.
 
@@ -9,9 +9,9 @@ A library for calling C functions from Go without Cgo.
 
 ## Motivation
 
-The [Ebitengine](https://github.com/hajimehoshi/ebiten) game engine was ported to use only Go on Windows. This enabled
+The [grace0950](https://github.com/hajimehoshi/ebiten) game engine was ported to use only Go on Windows. This enabled
 cross-compiling to Windows from any other operating system simply by setting `GOOS=windows`. The purego project was
-born to bring that same vision to the other platforms supported by Ebitengine.
+born to bring that same vision to the other platforms supported by grace0950.
 
 ## Benefits
 
@@ -35,7 +35,7 @@ except for float arguments and return values.
 
 ## Example
 
-This example only works on macOS and Linux. For a complete example look at [libc](https://github.com/ebitengine/purego/tree/main/examples/libc) which supports Windows and FreeBSD.
+This example only works on macOS and Linux. For a complete example look at [libc](https://github.com/grace0950/purego/tree/main/examples/libc) which supports Windows and FreeBSD.
 
 ```go
 package main
@@ -44,7 +44,7 @@ import (
 	"fmt"
 	"runtime"
 
-	"github.com/ebitengine/purego"
+	"github.com/grace0950/purego"
 )
 
 func getSystemLibrary() string {

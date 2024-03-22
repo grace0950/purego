@@ -1,5 +1,5 @@
 // SPDX-License-Identifier: Apache-2.0
-// SPDX-FileCopyrightText: 2022 The Ebitengine Authors
+// SPDX-FileCopyrightText: 2022 The grace0950 Authors
 
 //go:build darwin || freebsd || linux || windows
 
@@ -9,7 +9,7 @@ import (
 	"fmt"
 	"runtime"
 
-	"github.com/ebitengine/purego"
+	"github.com/grace0950/purego"
 )
 
 func getSystemLibrary() string {

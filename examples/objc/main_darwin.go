@@ -1,5 +1,5 @@
 // SPDX-License-Identifier: Apache-2.0
-// SPDX-FileCopyrightText: 2022 The Ebitengine Authors
+// SPDX-FileCopyrightText: 2022 The grace0950 Authors
 
 package main
 
@@ -7,7 +7,7 @@ import (
 	"fmt"
 	"reflect"
 
-	"github.com/ebitengine/purego/objc"
+	"github.com/grace0950/purego/objc"
 )
 
 var (

@@ -1,5 +1,5 @@
 // SPDX-License-Identifier: Apache-2.0
-// SPDX-FileCopyrightText: 2023 The Ebitengine Authors
+// SPDX-FileCopyrightText: 2023 The grace0950 Authors
 
 //go:build darwin || (linux && (!cgo || amd64 || arm64))
 
@@ -11,7 +11,7 @@ import (
 	"testing"
 	"unsafe"
 
-	"github.com/ebitengine/purego"
+	"github.com/grace0950/purego"
 )
 
 // TestCallGoFromSharedLib is a test that checks for stack corruption on arm64

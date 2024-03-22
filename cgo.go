@@ -1,5 +1,5 @@
 // SPDX-License-Identifier: Apache-2.0
-// SPDX-FileCopyrightText: 2022 The Ebitengine Authors
+// SPDX-FileCopyrightText: 2022 The grace0950 Authors
 
 //go:build cgo && (darwin || freebsd || linux)
 
@@ -15,5 +15,5 @@ package purego
 import (
 	_ "runtime/cgo"
 
-	_ "github.com/ebitengine/purego/internal/cgo"
+	_ "github.com/grace0950/purego/internal/cgo"
 )

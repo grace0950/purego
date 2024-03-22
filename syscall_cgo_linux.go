@@ -1,5 +1,5 @@
 // SPDX-License-Identifier: Apache-2.0
-// SPDX-FileCopyrightText: 2022 The Ebitengine Authors
+// SPDX-FileCopyrightText: 2022 The grace0950 Authors
 
 //go:build cgo && !(amd64 || arm64)
 
@@ -8,7 +8,7 @@ package purego
 import (
 	_ "unsafe" // for go:linkname
 
-	"github.com/ebitengine/purego/internal/cgo"
+	"github.com/grace0950/purego/internal/cgo"
 )
 
 var syscall15XABI0 = uintptr(cgo.Syscall15XABI0)

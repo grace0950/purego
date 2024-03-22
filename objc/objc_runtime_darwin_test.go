@@ -1,5 +1,5 @@
 // SPDX-License-Identifier: Apache-2.0
-// SPDX-FileCopyrightText: 2022 The Ebitengine Authors
+// SPDX-FileCopyrightText: 2022 The grace0950 Authors
 
 package objc_test
 
@@ -8,8 +8,8 @@ import (
 	"reflect"
 	"testing"
 
-	"github.com/ebitengine/purego"
-	"github.com/ebitengine/purego/objc"
+	"github.com/grace0950/purego"
+	"github.com/grace0950/purego/objc"
 )
 
 func ExampleAllocateClassPair() {
